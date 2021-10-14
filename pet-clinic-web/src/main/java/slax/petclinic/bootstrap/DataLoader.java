@@ -6,6 +6,8 @@ import slax.petclinic.model.Owner;
 import slax.petclinic.model.Vet;
 import slax.petclinic.services.OwnerService;
 import slax.petclinic.services.VetService;
+import slax.petclinic.services.map.OwnerServiceMap;
+import slax.petclinic.services.map.VetServiceMap;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -14,10 +16,9 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
 
 
-    public DataLoader(OwnerService ownerService, VetService vetService) {
-
-        this.ownerService = ownerService;
-        this.vetService = vetService;
+    public DataLoader() {
+        ownerService = new OwnerServiceMap();
+        vetService = new VetServiceMap();
     }
 
 
