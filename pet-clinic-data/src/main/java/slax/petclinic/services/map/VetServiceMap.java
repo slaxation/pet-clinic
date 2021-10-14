@@ -2,11 +2,11 @@ package slax.petclinic.services.map;
 
 
 import slax.petclinic.model.Vet;
-import slax.petclinic.services.CrudService;
+import slax.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
