@@ -1,6 +1,14 @@
 slax\petclinic\model\Vet.class
-slax\petclinic\model\Pet.class
-slax\petclinic\model\PetType.class
-slax\petclinic\Services1\OwnerService.class
 slax\petclinic\model\Owner.class
 slax\petclinic\model\Person.class
+slax\petclinic\services\CrudService.class
+slax\petclinic\model\Pet.class
+slax\petclinic\model\BaseEntity.class
+slax\petclinic\services\OwnerService.class
+slax\petclinic\services\VetService.class
+slax\petclinic\services\map\OwnerServiceMap.class
+slax\petclinic\model\PetType.class
+slax\petclinic\services\PetService.class
+slax\petclinic\services\map\VetServiceMap.class
+slax\petclinic\services\map\AbstractMapService.class
+slax\petclinic\services\map\PetServiceMap.class

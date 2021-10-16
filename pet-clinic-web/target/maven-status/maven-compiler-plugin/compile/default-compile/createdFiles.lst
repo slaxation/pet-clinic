@@ -1,1 +1,5 @@
+slax\petclinic\controllers\OwnerController.class
+slax\petclinic\controllers\IndexController.class
+slax\petclinic\bootstrap\DataLoader.class
 slax\petclinic\PetClinicApplication.class
+slax\petclinic\controllers\VetController.class
