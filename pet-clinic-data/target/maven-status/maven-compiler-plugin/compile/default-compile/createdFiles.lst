@@ -1,0 +1,6 @@
+slax\petclinic\model\Vet.class
+slax\petclinic\model\Pet.class
+slax\petclinic\model\PetType.class
+slax\petclinic\Services1\OwnerService.class
+slax\petclinic\model\Owner.class
+slax\petclinic\model\Person.class
