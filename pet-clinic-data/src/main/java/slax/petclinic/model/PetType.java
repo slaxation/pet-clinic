@@ -8,7 +8,7 @@ import javax.persistence.Table;
 @Table(name = "types")
 public class PetType extends BaseEntity {
 
-    @Column(name = "name")
+    @Column(name = "Type_name")
     private String name;
 
     public String getName() {

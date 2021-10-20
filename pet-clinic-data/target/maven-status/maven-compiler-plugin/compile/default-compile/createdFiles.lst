@@ -14,7 +14,6 @@ slax\petclinic\services\PetService.class
 slax\petclinic\repositories\VisitRepository.class
 slax\petclinic\services\springdatajpa\PetSDJpaService.class
 slax\petclinic\services\map\AbstractMapService.class
-slax\petclinic\services\SpecialityRepository.class
 slax\petclinic\services\springdatajpa\PetTypeSDJpaService.class
 slax\petclinic\services\map\PetTypeMapService.class
 slax\petclinic\repositories\OwnerRepository.class
@@ -22,6 +21,7 @@ slax\petclinic\model\Vet.class
 slax\petclinic\services\PetTypeService.class
 slax\petclinic\services\map\VisitMapService.class
 slax\petclinic\repositories\SpecialityRepository.class
+slax\petclinic\services\SpecialityService.class
 slax\petclinic\services\VisitService.class
 slax\petclinic\services\OwnerService.class
 slax\petclinic\services\VetService.class
