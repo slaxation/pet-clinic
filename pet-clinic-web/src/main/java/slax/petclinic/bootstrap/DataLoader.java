@@ -6,7 +6,7 @@ import slax.petclinic.model.*;
 import slax.petclinic.services.OwnerService;
 import slax.petclinic.services.PetTypeService;
 
-import slax.petclinic.services.SpecialityService;
+import slax.petclinic.services.SpecialityRepository;
 import slax.petclinic.services.VetService;
 
 import java.time.LocalDate;
@@ -17,10 +17,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
     private final PetTypeService petTypeService;
-    private final SpecialityService specialityService;
+    private final SpecialityRepository specialityService;
 
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petService, SpecialityService specialityService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petService, SpecialityRepository specialityService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petService;
