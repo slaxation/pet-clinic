@@ -3,46 +3,46 @@ package slax.petclinic.services.springdatajpa;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import slax.petclinic.model.Speciality;
-import slax.petclinic.services.SpecialityRepository;
+import slax.petclinic.services.SpecialityService;
 
 import java.util.HashSet;
 import java.util.Set;
 
 @Service
 @Profile("springdatajpa")
-public class SpecialitySDJpaService implements SpecialityRepository {
+public class SpecialitySDJpaService implements SpecialityService {
 
-    private final SpecialityRepository specialityRepository;
+    private final SpecialityService specialityService;
 
-    public SpecialitySDJpaService(SpecialityRepository specialityService) {
-        this.specialityRepository = specialityService;
+    public SpecialitySDJpaService(SpecialityService specialityService) {
+        this.specialityService = specialityService;
     }
 
 
     @Override
     public Set<Speciality> findAll() {
         Set<Speciality> specialities = new HashSet<>();
-        specialityRepository.findAll().forEach(specialities::add);
+        specialityService.findAll().forEach(specialities::add);
         return specialities;
     }
 
     @Override
     public Speciality findById(Long aLong) {
-        return specialityRepository.findById(aLong);
+        return specialityService.findById(aLong);
     }
 
     @Override
     public Speciality save(Speciality object) {
-        return specialityRepository.save(object);
+        return specialityService.save(object);
     }
 
     @Override
     public void delete(Speciality object) {
-        specialityRepository.delete(object);
+        specialityService.delete(object);
     }
 
     @Override
     public void deleteById(Long aLong) {
-        specialityRepository.deleteById(aLong);
+        specialityService.deleteById(aLong);
     }
 }

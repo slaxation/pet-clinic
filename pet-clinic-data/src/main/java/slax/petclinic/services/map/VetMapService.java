@@ -4,7 +4,7 @@ package slax.petclinic.services.map;
 import org.springframework.stereotype.Service;
 import slax.petclinic.model.Speciality;
 import slax.petclinic.model.Vet;
-import slax.petclinic.services.SpecialityRepository;
+import slax.petclinic.services.SpecialityService;
 import slax.petclinic.services.VetService;
 
 import java.util.Set;
@@ -12,9 +12,9 @@ import java.util.Set;
 @Service
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
-    private final SpecialityRepository specialityService;
+    private final SpecialityService specialityService;
 
-    public VetMapService(SpecialityRepository specialityService) {
+    public VetMapService(SpecialityService specialityService) {
         this.specialityService = specialityService;
     }
 
