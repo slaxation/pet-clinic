@@ -11,7 +11,8 @@ import java.util.Set;
 @Table(name = "pets")
 public class Pet extends BaseEntity {
 
-    @Column(name = "owner")
+
+    @Column(name = "name")
     private String name;
 
     @ManyToOne
