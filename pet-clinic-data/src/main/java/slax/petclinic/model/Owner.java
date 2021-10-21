@@ -6,7 +6,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "owners")
-public class Owner extends Person{
+public class Owner extends Person {
 
     @Column(name = "city")
     private String city;
@@ -18,7 +18,7 @@ public class Owner extends Person{
     private String address;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
-    private Set<Pet> pets = new HashSet<>() ;
+    private Set<Pet> pets = new HashSet<>();
 
     public String getCity() {
         return city;
