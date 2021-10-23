@@ -16,11 +16,16 @@ public class Owner extends Person {
     @Builder
     public Owner(Long id, String firstName, String lastName, String address, String city,
                  String telephone, Set<Pet> pets) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.address = address;
         this.city = city;
         this.telephone = telephone;
         this.pets = pets;
     }
+
+    private String firstName;
+    private String lastName;
 
     @Column(name = "address")
     private String address;
