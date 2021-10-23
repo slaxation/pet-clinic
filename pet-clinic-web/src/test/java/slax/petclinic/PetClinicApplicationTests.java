@@ -1,4 +1,4 @@
-package petclinic;
+package slax.petclinic;
 
 
 import org.junit.jupiter.api.Test;

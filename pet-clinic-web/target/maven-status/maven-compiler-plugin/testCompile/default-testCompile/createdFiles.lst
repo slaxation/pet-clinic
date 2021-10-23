@@ -1,1 +1,4 @@
-petclinic\PetClinicApplicationTests.class
+slax\petclinic\PetClinicApplicationTests.class
+slax\petclinic\services\map\OwnerMapServiceTest.class
+slax\petclinic\services\springdatajpa\OwnerSDJpaServiceTest.class
+slax\petclinic\controllers\OwnerControllerTest.class
