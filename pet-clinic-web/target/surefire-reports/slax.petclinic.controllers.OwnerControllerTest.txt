@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: slax.petclinic.controllers.OwnerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.464 s <<< FAILURE! - in slax.petclinic.controllers.OwnerControllerTest
+displayOwner  Time elapsed: 0.191 s  <<< FAILURE!
+java.lang.AssertionError: 
+Model attribute 'owner'
+Expected: hasProperty("id", is <1L>)
+     but:  property 'id' was null
+	at slax.petclinic.controllers.OwnerControllerTest.displayOwner(OwnerControllerTest.java:77)
+

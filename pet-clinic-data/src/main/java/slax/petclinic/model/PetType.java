@@ -8,6 +8,7 @@ import javax.persistence.Table;
 
 @Setter
 @Getter
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -18,5 +19,9 @@ public class PetType extends BaseEntity {
     @Column(name = "Type_name")
     private String name;
 
+    @Override
+    public String toString() {
+        return name;
+    }
 
 }
