@@ -13,14 +13,19 @@
         <version>2.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+    </properties>
+
     <groupId>slax</groupId>
     <artifactId>pet-clinic</artifactId>
     <version>0.0.1</version>
     <name>pet-clinic</name>
     <description>Pet Clinic Project</description>
-    <properties>
-        <java.version>11</java.version>
-    </properties>
+
 
 
     <build>
