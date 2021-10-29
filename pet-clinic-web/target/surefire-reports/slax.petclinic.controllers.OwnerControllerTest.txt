@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: slax.petclinic.controllers.OwnerControllerTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.856 s - in slax.petclinic.controllers.OwnerControllerTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.945 s - in slax.petclinic.controllers.OwnerControllerTest

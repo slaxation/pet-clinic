@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: slax.petclinic.PetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.454 s - in slax.petclinic.PetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.864 s - in slax.petclinic.PetClinicApplicationTests
